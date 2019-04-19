@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
+
+/*------------------------------------------------------Colours--*/
+
+.bg-color-title {
+    background-color: #153f4f;
+}
+
+.bg-color-navbar {
+    background-color: #153f4f;
+}
+
+/*--------------------------------------------------------Special paddings/margins/text */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.footer-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+/*------------------------------------------------------Icons--*/
+
+.fa-star {
+    color: gold;
+}
+
+/*------------------------------------------------------Header--*/
+
+.title {
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    color: #db5b10;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+/*------------------------------------------------------Reviews--*/
+
+.container-wrapper {
+        background-color: #b59638;
+}
+.quotes {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.blockquote {
+    font-family: "Cinzel+decorative", sans-serif;
+    font size: 30px;
+}
+
+/*------------------------------------------------------Block Dividers--*/
+
+.block-divider {
+    width: 200px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    margin-bottom: 40px;
+}
+
+.block-divider--orange {
+    background-color: #f05f40
+}
+
