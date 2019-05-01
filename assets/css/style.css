@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Press+Start+2P:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 /*------------------------------------------------------Colours--*/
 
 .bg-color-title {
@@ -11,11 +11,21 @@
 }
 
 .bg-color-section-container {
-background-color: #09353a;
+    background-color: #09353a;
 }
 
 /*--------------------------------------------------------Special paddings/margins/text */
 
+.section-column {
+    display: table-cell;
+    padding: 0 60px 60px;
+}
+p {
+    color: black;
+    font-size: 25px;
+    width: 90%;
+    margin: 0 auto;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -29,6 +39,7 @@ background-color: #09353a;
 .inline-block {
     display: inline-block;
 }
+
 /*------------------------------------------------------Icons--*/
 
 .fa-star {
@@ -46,6 +57,11 @@ background-color: #09353a;
     margin-top: 10px;
     padding-left: 10px;
 }
+
+.nav a {
+    padding-left: -5px; 
+}
+
 .navbar {
     padding-left: 0px;
 }
@@ -71,32 +87,23 @@ li a {
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    font-family: "", sans-serif;
+    font-family: "Press+Start+2P", sans-serif;
     margin: 50px auto 80px;
     color: #fbc500;
     text-decoration: underline;
 }
 
+
 .media img {
     margin: 0 auto 20px;
 }
 
-.main {
-    padding-left: 80px; 
-    padding-right: 40px;
-}
-.aside {
-    padding-right: 80px;
-    padding-left: 40px;
-}
-
 /*------------------------------------------------------Games-section--*/
 
-
-
+.card {
+    height: 500px;
+}
 /*------------------------------------------------------About-section--*/
-
-
 
 /*------------------------------------------------------Block Dividers--*/
 
@@ -105,9 +112,16 @@ li a {
     height: 3px;
     border: 0;
     background-color: #fbc500;
-    margin-top: 0;
+    margin: 0;
 }
 
+.divider-short {
+    width: 70%;
+    height: 3px;
+    border: 0;
+    background-color: #fbc500;
+    margin-top: 80px;
+}
 
 /*------------------------------------------------------Buttons--*/
 
