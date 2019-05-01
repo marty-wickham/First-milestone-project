@@ -100,8 +100,12 @@ li a {
 
 /*------------------------------------------------------Games-section--*/
 
+.card-container {
+    text-align: center;
+}
 .card {
-    height: 500px;
+    margin: 0 15px 40px;
+    
 }
 /*------------------------------------------------------About-section--*/
 
