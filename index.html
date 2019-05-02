@@ -14,39 +14,35 @@
 
 <body>
     <header>
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg bg-color-navbar">
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/ARG_Logo_Landscape.jpg" alt="Logo" height=75 width=75></a>
+        <nav class="navbar navbar-expand-lg bg-color-navbar">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/ARG_Logo_Landscape.jpg" alt="Logo" height=75 width=75></a>
 
-                    <h1 class="title">Astirian-Rae Games</h1>
+            <h1 class="title">Astirian-Rae Games</h1>
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto uppercase">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Games</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto uppercase">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Games</a>
 
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a href="/Log-in" class="btn btn--cta">Subscribe</a>
-                </nav>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+
+            <a href="/Log-in" class="btn btn--cta">Subscribe</a>
+        </nav>
     </header>
 
     <section>
@@ -54,17 +50,17 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/Defender-of-the-wood.jpg" alt="First slide">
+                    <img class="d-block w-100" src="assets/images/Defender-of-the-wood.jpg" alt="First slide" height=100>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img class="d-block w-100" src="assets/images/dotw-screenshot-1-edit.jpg" alt="Second slide">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img class="d-block w-100" src="..." alt="Third slide">
                 </div>
             </div>
@@ -124,16 +120,22 @@
                         </div>
                         <hr class="divider-short">
                     </div>
-                    <!--/News-->
+                </div>
+            </div>
+        </div>
+        <!--/News-->
 
-                    <!--/Games-->
+        <!--/Games-->
+        <div class="container-fluid bg-color-section-container">
+            <div class="row">
+                <div class="col games-section-column">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="section-heading uppercase">Games</h3>
                         </div>
                     </div>
-                    <div class="row card-container">
-                        <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-12 col-md-4 card-container">
                             <div class="card" style="width: 100%;">
                                 <img src="assets/images/Dotw-title.png" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -144,7 +146,7 @@
                             </div>
                         </div>
                         <div class="col col-md-4">
-                            <div class="card" style="width: 100%;">
+                            <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Defender of the oasis edit.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
@@ -154,7 +156,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="card" style="width: 100%;">
+                            <div class="card" style="width: 100%%;">
                                 <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
@@ -164,7 +166,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="card" style="width: 100%;">
+                            <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Icon-Revision-Experimental.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
@@ -174,7 +176,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="card" style="width: 100%;">
+                            <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Baskethead cover.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
@@ -184,7 +186,7 @@
                             </div>
                         </div>
                         <div class="col-12 col-md-4">
-                            <div class="card" style="width: 100%;">
+                            <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Dodgy zoo cover.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
@@ -202,25 +204,8 @@
 
     <footer>
         <div class="container-fluid">
-            <div id="footer-details" class="row">
-                <div class="col-sm-4">
-                    <h5 class="uppercase footer-sub">About</h5>
-                    <p class="inline-block">
-                        My name is Daragh Wickham, and I'm learning how to make games at the ripe age of... Well, you don't want to know my age.
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h5 class="uppercase footer-sub">Download</h5>
-                    <p class="inline-block">
-                        Need a printable version of my CV? Download it here.
-                        <a href="#" target="_blank" class="cv-pdf">
-                            <i class="fa fa-download" aria-hidden="true"></i>
-                            <span class="sr-only">Download link.</span>
-                        </a>
-                    </p>
-                </div>
-                <div class="col-sm-4">
-                    <h5 class="-uppercase footer-sub">Social</h5>
+            <div class="row footer">
+                <div class="col-12 social-media">
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a href="#" target="_blank">

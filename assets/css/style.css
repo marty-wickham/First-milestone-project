@@ -18,7 +18,7 @@
 
 .section-column {
     display: table-cell;
-    padding: 0 60px 60px;
+    padding: 0 60px;
 }
 p {
     color: black;
@@ -56,6 +56,14 @@ p {
     font-weight: 700;
     margin-top: 10px;
     padding-left: 10px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
 }
 
 .nav a {
@@ -100,14 +108,30 @@ li a {
 
 /*------------------------------------------------------Games-section--*/
 
+.games-section-column {
+    padding: 0px 200px 60px;
+}
 .card-container {
     text-align: center;
 }
 
 .card {
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
 }
 /*------------------------------------------------------About-section--*/
+
+/*------------------------------------------------------Footer--*/
+
+.social-media {
+    height: 100px;
+    background-color: #2a2727;
+}
+.social-media ul {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
 
 /*------------------------------------------------------Block Dividers--*/
 
@@ -124,7 +148,7 @@ li a {
     height: 3px;
     border: 0;
     background-color: #fbc500;
-    margin-top: 80px;
+    margin: 80px auto 0;
 }
 
 /*------------------------------------------------------Buttons--*/
