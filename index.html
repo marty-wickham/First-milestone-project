@@ -15,9 +15,9 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-color-navbar">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/ARG_Logo_Landscape.jpg" alt="Logo" height=75 width=75></a>
-
-            <h1 class="title">Astirian-Rae Games</h1>
+            <a class="navbar-brand" href="index.html">
+                <h1 class="title">Astirian-Rae Games</h1>
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,17 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto uppercase">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#news-link">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Games</a>
-
+                        <a class="nav-link" href="#games-link">Games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,9 +47,9 @@
         </nav>
     </header>
 
+    <!--Carousel-->
     <section>
-        <!--Carousel-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carousel-feature" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -55,10 +57,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/Defender-of-the-wood.jpg" alt="First slide" height=100>
+                    <img class="d-block w-100" src="assets/images/Defender-of-the-wood.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/dotw-screenshot-1-edit.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="" alt="Second slide">
                 </div>
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="..." alt="Third slide">
@@ -73,23 +75,23 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!--/Carousel-->
+    </section>
 
-        <div class="container-fluid bg-color-section-container">
+    <!--News-->
+    <section>
+        <div class="container-fluid bg-color-main">
             <hr class="block-divider">
             <div class="row">
                 <div class="col section-column">
-
-                    <!--News-->
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="section-heading uppercase">News</h3>
+                            <h3 class="section-heading uppercase" id=news-link>News</h3>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                    <div class="row">
                         <div class="col-md-8 main">
                             <div class="row">
-                                <div class="col media">
+                                <div class="<col media>">
                                     <img src="assets/images/Dragon.png" alt="Dragon" height=300 width=90%>
                                 </div>
                             </div>
@@ -106,7 +108,7 @@
                         <div class="col-md-4 aside">
                             <div class="row">
                                 <div class="col media">
-                                    <img src="assets/images/Archer001-edit.png" alt="<Arche></Arche>r" height=300 width=300>
+                                    <img src="assets/images/Defender2.jpg" alt="art" height=300 width=90%>
                                 </div>
                             </div>
                             <div class="row">
@@ -118,38 +120,39 @@
                                 </div>
                             </div>
                         </div>
-                        <hr class="divider-short">
                     </div>
                 </div>
             </div>
         </div>
-        <!--/News-->
+    </section>
 
-        <!--/Games-->
-        <div class="container-fluid bg-color-section-container">
+    <!--/Games-->
+    <section>
+        <div class="container-fluid bg-color-main">
+            <hr class="divider-short">
             <div class="row">
                 <div class="col games-section-column">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="section-heading uppercase">Games</h3>
+                            <h3 class="section-heading uppercase" id="games-link">Games</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-4 card-container">
                             <div class="card" style="width: 100%;">
-                                <img src="assets/images/Dotw-title.png" class="card-img-top" alt="...">
+                                <img src="assets/images/Dotw-title-edit.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Defender of the Wood</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-md-4">
+                        <div class="col-12 col-md-4">
                             <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Defender of the oasis edit.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Defender of the Oasis</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
@@ -157,9 +160,9 @@
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="card" style="width: 100%%;">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="assets/images/Blast dwarf title.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Blast Dwarf</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
@@ -167,9 +170,9 @@
                         </div>
                         <div class="col-12 col-md-4">
                             <div class="card" style="width: 100%%;">
-                                <img src="assets/images/Icon-Revision-Experimental.png" class="card-img-top" alt="...">
+                                <img src="assets/images/Icon-Revision-Experimental.png" class="card-img-top" alt="assets/images/Blast dwarf title.png">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Tellurium</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
@@ -179,7 +182,7 @@
                             <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Baskethead cover.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Baskethead</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
@@ -189,7 +192,7 @@
                             <div class="card" style="width: 100%%;">
                                 <img src="assets/images/Dodgy zoo cover.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Dodgy Zoo</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-primary">Download Now!</a>
                                 </div>
@@ -197,8 +200,33 @@
                         </div>
                     </div>
                 </div>
-                <!--/Games-->
             </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section>
+        <div class="container-fluid bg-color-main">
+            <hr class="divider-short">
+            <div class="row">
+                <div class="col section-column">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="section-heading uppercase" id="about-link">About</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 about">
+                            <img src="/assets/images/Daragh profile.jpg" alt="">
+                            <p>
+                                My name is Daragh Wickham, and I'm learning how to make games at the ripe age of... Well, you don't want to know my age. Suffice it to say, I've pushed out a lot of QUALITY GAMES so far! Heh. But seriously, stick with me, I'll get good one day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
 

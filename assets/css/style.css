@@ -10,22 +10,24 @@
     background-color: #09353a;
 }
 
-.bg-color-section-container {
+.bg-color-main {
     background-color: #09353a;
 }
 
 /*--------------------------------------------------------Special paddings/margins/text */
 
 .section-column {
-    display: table-cell;
-    padding: 0 60px;
+    padding: 0 8% 100px;
 }
+
 p {
-    color: black;
+    color: white;
     font-size: 25px;
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -58,24 +60,25 @@ p {
     padding-left: 10px;
 }
 
+nav {
+    width: 100%;
+}
+
 .navbar {
     padding: 0;
 }
 
 .navbar-brand {
+    margin-left: 20px;
     padding: 0;
 }
 
-.nav a {
-    padding-left: -5px; 
+nav ul {
+    margin: 0 auto;
 }
 
-.navbar {
-    padding-left: 0px;
-}
-
-ul {
-    margin-left: 100px;
+.btn--cta {
+    margin-right: 20px;
 }
 
 li a {
@@ -83,13 +86,27 @@ li a {
     font-size: 30px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    transition: all 0.2 5s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+li a:hover {
+    background-color: #fbc500;
+    border-color: #09353a;
+    color: #09353a;
+}
+
+.carousel {
+    max-height: 100vh;
+}
+
+.carousel-item img {
+    max-height: 700px;
 }
 
 /*------------------------------------------------------News-section--*/
-
-.container-fluid {
-    padding: 0;
-}
 
 .section-heading {
     text-align: center;
@@ -103,22 +120,48 @@ li a {
 
 
 .media img {
+    display: block;
     margin: 0 auto 20px;
+}
+
+.media-body {
+    margin-bottom: 40px;
 }
 
 /*------------------------------------------------------Games-section--*/
 
 .games-section-column {
-    padding: 0px 200px 60px;
+    padding: 0px 18% 60px;
 }
+
 .card-container {
     text-align: center;
 }
 
 .card {
     margin: 0 auto 40px;
+    text-align: center;
+    background-color: #c99807;
 }
+
+.card img {
+    height: 220px;
+}
+
 /*------------------------------------------------------About-section--*/
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
 
 /*------------------------------------------------------Footer--*/
 
@@ -126,6 +169,7 @@ li a {
     height: 100px;
     background-color: #2a2727;
 }
+
 .social-media ul {
     width: 300px;
     margin: 0 auto;
@@ -148,7 +192,7 @@ li a {
     height: 3px;
     border: 0;
     background-color: #fbc500;
-    margin: 80px auto 0;
+    margin: 0 auto;
 }
 
 /*------------------------------------------------------Buttons--*/
@@ -162,10 +206,7 @@ li a {
     color: white;
 }
 
-.btn--cta:hover,
-.btn--cta:active,
-.btn--cta:focus,
-.btn--cta:active:focus {
+.btn--cta:hover {
     background-color: #fbc500;
     border-color: #09353a;
     color: #09353a;
