@@ -32,12 +32,6 @@ p {
     text-transform: uppercase;
 }
 
-.footer-sub {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
 .inline-block {
     display: inline-block;
 }
@@ -60,30 +54,27 @@ p {
     padding-left: 10px;
 }
 
-nav {
-    width: 100%;
-}
-
 .navbar {
     padding: 0;
 }
 
 .navbar-brand {
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 0;
+}
+
+.collapse {
+    position: absolute;
+    width: 100%;
 }
 
 nav ul {
     margin: 0 auto;
 }
 
-.btn--cta {
-    margin-right: 20px;
-}
-
-li a {
+.navbar-nav li a {
     color: #fbc500;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     transition: all 0.2 5s ease-in-out;
@@ -92,7 +83,7 @@ li a {
     -o-transition: all 0.25s ease-in-out;
 }
 
-li a:hover {
+.navbar-nav li a:hover {
     background-color: #fbc500;
     border-color: #09353a;
     color: #09353a;
@@ -119,9 +110,11 @@ li a:hover {
 }
 
 
-.media img {
+.news-image {
     display: block;
     margin: 0 auto 20px;
+    height: 300px;
+    width: 90%;
 }
 
 .media-body {
@@ -131,7 +124,7 @@ li a:hover {
 /*------------------------------------------------------Games-section--*/
 
 .games-section-column {
-    padding: 0px 18% 60px;
+    padding: 0px 8% 60px;
 }
 
 .card-container {
@@ -146,6 +139,11 @@ li a:hover {
 
 .card img {
     height: 220px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 /*------------------------------------------------------About-section--*/
@@ -171,10 +169,35 @@ li a:hover {
 }
 
 .social-media ul {
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     padding-top: 25px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 24px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 1px;
+    text-align: center;
+    color: white;
+    background-color: #27527f; 
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #09353a;
+    color: #fbc500;
 }
 
 /*------------------------------------------------------Block Dividers--*/
@@ -198,16 +221,36 @@ li a:hover {
 /*------------------------------------------------------Buttons--*/
 
 .btn--cta {
+    height: 25px;
     font-size: 20px;
+    line-height: 1px;
+    padding-top: 10px;
     font-weight: bold;
-    border-radius: 23px;
-    width: 140px;
+    width: 100%;
+    border-radius: 0;
     background-color: #27527f;
     color: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .btn--cta:hover {
     background-color: #fbc500;
     border-color: #09353a;
     color: #09353a;
+}
+
+.card-body a {
+    margin-top: 15px;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: #27527f;
+    color: white;
+}
+
+.card-body a:hover {
+    background-color: #09353a;
+    color: #c99807;
 }
