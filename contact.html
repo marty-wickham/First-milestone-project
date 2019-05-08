@@ -14,38 +14,59 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-color-navbar">
+        <div class="row">
+            <div class="col-12">
+                <a href="/Log-in" class="btn btn--cta">Subscribe</a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-dark navbar-expand-xl">
             <a class="navbar-brand" href="index.html">
                 <h1 class="title">Astirian-Rae Games</h1>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropwdown" aria-expanded="false" aria-label="Togglenavigation">
+            <span class="navbar-toggler-icon"></span></button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto uppercase">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#news-link">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#games-link">Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    <li class="active nav-item mr-2"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item mr-2"><a href="#news-link" class="nav-link">News</a></li>
+                    <li class="nav-item mr-2"><a href="#games-link" class="nav-link">Games</a></li>
+                    <li class="nav-item mr-2"><a href="#about-link" class="nav-link">About</a></li>
+                    <li class="nav-item mr-2"><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </div>
-
-            <a href="/Log-in" class="btn btn--cta">Subscribe</a>
         </nav>
     </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-color-contact">
+                <div class="col">
+                    <h3 class="contact-heading uppercase text-center">Want to get in touch?</h3>
+                    <div class="contact-text">
+                        <p>If you'd like to work together with us in the future, we are always looking for artists and developers to help grow our company. Or, if you'd just like to leave some feedback, we would greatly appreciate that too. That way we can
+                            get better at what we do, and hopefully produce some even more really kicass games!</p>
+                    </div>
+
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                            <textarea rows="5" name="userquery" id="userquery" class="form-control" placeholder="Description" required/></textarea>
+
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container-fluid">
@@ -62,18 +83,6 @@
                             <a href="#" target="_blank">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                <span class="sr-only">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#" target="_blank">
-                                <i class="fa fa-pinterest" aria-hidden="true"></i>
-                                <span class="sr-only">Pinterest</span>
                             </a>
                         </li>
                         <li class="list-inline-item">

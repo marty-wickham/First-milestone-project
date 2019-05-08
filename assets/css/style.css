@@ -6,10 +6,6 @@
     background-color: #fbc500;
 }
 
-.bg-color-navbar {
-    background-color: #09353a;
-}
-
 .bg-color-main {
     background-color: #09353a;
 }
@@ -56,12 +52,32 @@ p {
 
 .navbar {
     padding: 0;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #09353a ;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
 }
 
 .navbar-brand {
-    margin-left: 10px;
+    font-weight: bold;
     padding: 0;
 }
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fbc500;
+}
+
+/*
 
 .collapse {
     position: absolute;
@@ -72,22 +88,7 @@ nav ul {
     margin: 0 auto;
 }
 
-.navbar-nav li a {
-    color: #fbc500;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Roboto", sans-serif;
-    transition: all 0.2 5s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-}
-
-.navbar-nav li a:hover {
-    background-color: #fbc500;
-    border-color: #09353a;
-    color: #09353a;
-}
+} */
 
 .carousel {
     max-height: 100vh;
@@ -164,28 +165,27 @@ nav ul {
 /*------------------------------------------------------Footer--*/
 
 .social-media {
-    height: 100px;
+    height: 125px;
     background-color: #2a2727;
 }
 
 .social-media ul {
     width: 100%;
-    margin: 0 auto;
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0 25px;
 }
 
-.list-inline-item:not(:last-child) {
-    margin-right: 5rem;
+.list-inline-item{
+    width: 20%;
 }
+
 
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 24px 0;
+    width: 75px;
+    height: 75px;
+    padding: 17px 0;
     border-radius: 50%;
-    font-size: 25px;
-    line-height: 1px;
+    font-size: 40px;
     text-align: center;
     color: white;
     background-color: #27527f; 
@@ -253,4 +253,52 @@ nav ul {
 .card-body a:hover {
     background-color: #09353a;
     color: #c99807;
+}
+
+/*------------------------------------------------------Contact--*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #27527f;
+}
+
+.contact-text {
+    margin-bottom: 15px;
+}
+
+.contact-text p {
+    color: black;
+}
+
+/*------------------------------------------------------Media Queries--*/
+
+
+@media(min-width:550px) and (max-width:768px) {
+    .games-section-column {
+        padding: 0px 20% 60px;
+    }
+}
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
