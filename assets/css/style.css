@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Press+Start+2P:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 /*------------------------------------------------------Colours--*/
 
 .bg-color-title {
@@ -55,7 +56,7 @@ p {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #09353a ;
+    background-color: #09353a;
 }
 
 .navbar .navbar-toggler {
@@ -75,27 +76,19 @@ p {
 
 .navbar-nav .nav-item .nav-link:hover {
     color: #fbc500;
+    transform: scale(1.2);
 }
 
-/*
-
-.collapse {
-    position: absolute;
-    width: 100%;
-}
-
-nav ul {
-    margin: 0 auto;
-}
-
-} */
-
-.carousel {
-    max-height: 100vh;
-}
-
-.carousel-item img {
-    max-height: 700px;
+.bg-image {
+    height: 90vh;
+    background: url('../images/dotw-screenshot-1-edit.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*------------------------------------------------------News-section--*/
@@ -136,6 +129,15 @@ nav ul {
     margin: 0 auto 40px;
     text-align: center;
     background-color: #c99807;
+    border-radius: 3%;
+    border: 2px solid #27527f;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
 }
 
 .card img {
@@ -145,6 +147,18 @@ nav ul {
 .card-title {
     font-size: 2rem;
     font-weight: 700;
+}
+
+/*------------------------------------------------------Gallery-section--*/
+
+.carousel {
+    max-height: 70vh;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: 400px;
 }
 
 /*------------------------------------------------------About-section--*/
@@ -175,7 +189,7 @@ nav ul {
     padding: 25px 0 25px;
 }
 
-.list-inline-item{
+.list-inline-item {
     width: 20%;
 }
 
@@ -188,7 +202,7 @@ nav ul {
     font-size: 40px;
     text-align: center;
     color: white;
-    background-color: #27527f; 
+    background-color: #27527f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -198,6 +212,12 @@ nav ul {
 .social-links li a i:hover {
     background-color: #09353a;
     color: #fbc500;
+}
+
+.logo img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
 }
 
 /*------------------------------------------------------Block Dividers--*/
@@ -286,7 +306,6 @@ button[type="submit"] {
 }
 
 /*------------------------------------------------------Media Queries--*/
-
 
 @media(min-width:550px) and (max-width:768px) {
     .games-section-column {
