@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Press+Start+2P:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
+html {}
+
 /*------------------------------------------------------Colours--*/
 
 .bg-color-title {
@@ -79,17 +81,23 @@ p {
     transform: scale(1.2);
 }
 
+.container {
+    height: 100%;
+    width: 100%;
+}
+    
 .bg-image {
     height: 90vh;
+    max-width: 100%;
     background: url('../images/dotw-screenshot-1-edit.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
+} 
 
 /*------------------------------------------------------News-section--*/
 
@@ -130,7 +138,7 @@ p {
     text-align: center;
     background-color: #c99807;
     border-radius: 3%;
-    border: 2px solid #27527f;
+    border: 2px solid #fbc107    ;
     transition: .5s;
 }
 
@@ -141,24 +149,43 @@ p {
 }
 
 .card img {
-    height: 220px;
+    height: 300px;
+    border-radius: 3%;
+    background-color: #4690b2;
 }
 
 .card-title {
-    font-size: 2rem;
     font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.bh-cover {
+    background-color: black!important;
 }
 
+.dz-cover {
+    background-color: green!important;
+}
 /*------------------------------------------------------Gallery-section--*/
 
-.carousel {
-    max-height: 70vh;
-    max-width: 70%;
-    margin: 0 auto;
+.gallery-col {
+    padding-bottom: 100px;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 60vh;
+}
+
+.carousel-item {
+    height: 100%;
+}
 .carousel-item img {
-    height: 400px;
+    height: 100%;
 }
 
 /*------------------------------------------------------About-section--*/
@@ -263,7 +290,8 @@ p {
 }
 
 .card-body a {
-    margin-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 15px;
     font-size: x-large;
     font-weight: 700;
     background-color: #27527f;
@@ -319,5 +347,30 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+}
+
+@media(max-width:1300px) {
+    .carousel-inner {
+        width: 90%;
+    }
+} 
+
+@media(max-width:1194px) {
+    .carousel-inner {
+        height: 460px;
+    }
+}
+
+@media(max-width:800px) {
+    .carousel-inner {
+        height: 300px;
+    }
+}
+
+@media(max-width:992px) {
+    .bg-image {
+        background-image: url("../images/archer1-edit.png");
+        background-attachment: scroll;
     }
 }
