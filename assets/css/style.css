@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Press+Start+2P:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
-html {}
+html {
+  scroll-behavior: smooth;
+}
 
 /*------------------------------------------------------Colours--*/
 
@@ -10,8 +12,10 @@ html {}
 }
 
 .bg-color-main {
-    background-color: #09353a;
+    background-color: #0f5f7b;
 }
+/*#09353a*/
+
 
 /*--------------------------------------------------------Special paddings/margins/text */
 
@@ -37,10 +41,6 @@ p {
 
 /*------------------------------------------------------Icons--*/
 
-.fa-star {
-    color: gold;
-}
-
 /*------------------------------------------------------Header--*/
 
 .title {
@@ -58,7 +58,7 @@ p {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #09353a;
+    background-color: #0f5f7b;
 }
 
 .navbar .navbar-toggler {
@@ -87,14 +87,13 @@ p {
 }
     
 .bg-image {
-    height: 90vh;
-    max-width: 100%;
-    background: url('../images/dotw-screenshot-1-edit.jpg');
+    height: 100vh;
+    background: url('../images/../images/arg-logo-landscape.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 } 
@@ -136,9 +135,8 @@ p {
 .card {
     margin: 0 auto 40px;
     text-align: center;
-    background-color: #c99807;
+    background-color: #fcb500;
     border-radius: 3%;
-    border: 2px solid #fbc107    ;
     transition: .5s;
 }
 
@@ -156,7 +154,6 @@ p {
 
 .card-title {
     font-weight: 700;
-    padding-top: 30px;
     padding-bottom: 20px;
     font-size: 35px;
 }
@@ -237,14 +234,8 @@ p {
 }
 
 .social-links li a i:hover {
-    background-color: #09353a;
+    background-color: #0f5f7b;
     color: #fbc500;
-}
-
-.logo img {
-    position: absolute;
-    width: 80px;
-    height: 80px;
 }
 
 /*------------------------------------------------------Block Dividers--*/
@@ -285,8 +276,8 @@ p {
 
 .btn--cta:hover {
     background-color: #fbc500;
-    border-color: #09353a;
-    color: #09353a;
+    border-color: #0f5f7b;
+    color: #0f5f7b;
 }
 
 .card-body a {
@@ -299,8 +290,8 @@ p {
 }
 
 .card-body a:hover {
-    background-color: #09353a;
-    color: #c99807;
+    background-color: #0f5f7b;
+    color: #fcb500;
 }
 
 /*------------------------------------------------------Contact--*/
@@ -368,9 +359,9 @@ button[type="submit"] {
     }
 }
 
-@media(max-width:992px) {
+@media(max-width: 660px) {
     .bg-image {
-        background-image: url("../images/archer1-edit.png");
-        background-attachment: scroll;
+        width: 100%;
+        background-size: ;
     }
 }
