@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Press+Start+2P:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Russo+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Cinzel+decorative:100,200,300,400,500,600,700');
 
 html {
   scroll-behavior: smooth;
@@ -104,12 +103,11 @@ p {
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    font-family: "Press+Start+2P", sans-serif;
+    font-family: "Russo One", sans-serif;
     margin: 50px auto 80px;
     color: #fbc500;
     text-decoration: underline;
 }
-
 
 .news-image {
     display: block;
@@ -135,8 +133,8 @@ p {
 .card {
     margin: 0 auto 40px;
     text-align: center;
-    background-color: #fcb500;
-    border-radius: 3%;
+    background-color: #0A273C;
+    border-radius: 2%;
     transition: .5s;
 }
 
@@ -148,15 +146,18 @@ p {
 
 .card img {
     height: 300px;
-    border-radius: 3%;
     background-color: #4690b2;
+    border: 3px solid #6f6a64;
 }
 
 .card-title {
+    font-family: "Russo One";
     font-weight: 700;
-    padding-bottom: 20px;
+    height: 85px;
     font-size: 35px;
+    color: #fbc500;
 }
+
 .bh-cover {
     background-color: black!important;
 }
@@ -164,6 +165,22 @@ p {
 .dz-cover {
     background-color: green!important;
 }
+
+.card-body a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-weight: 700;
+    background-color: #27527f;
+    color: white;
+}
+
+.card-body a:hover {
+    background-color: #0f5f7b;
+    color: #fbc500;
+}
+
+
 /*------------------------------------------------------Gallery-section--*/
 
 .gallery-col {
@@ -297,19 +314,6 @@ p {
     background-color: #fbc500;
     
     
-}
-.card-body a {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: x-large;
-    font-weight: 700;
-    background-color: #27527f;
-    color: white;
-}
-
-.card-body a:hover {
-    background-color: #0f5f7b;
-    color: #fcb500;
 }
 
 /*------------------------------------------------------Contact--*/
