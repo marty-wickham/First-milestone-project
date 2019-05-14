@@ -1,7 +1,8 @@
-Alt-H1 First Milestone Project / Astirian-Rae Games
-___
+# First Milestone Project / Astirian-Rae Games
+____
 
-Asirian-Rae Games is a small mobile-games company set up by my brother. They make mobile games using C# and Unity. 
+Asirian-Rae Games is a small mobile-games company set up by my brother, Daragh Wickham. They make 2D platform mobile games using C# and Unity.
+This is the link to the deployed webapge: [Astirian-Rae Games](https://martycistudent.github.io/First-milestone-project/)
 
 ## UX Design:
 
@@ -35,25 +36,25 @@ Social media –  to further promote the business brand and content across other
 * A news section that will update fans with any new products that are being released, or any new updates or bug fixes for current products
 * A contact section to leave feedback about games, or for any potential collaborations with other people or businesses in the industry.
 
-#### Uer scenarios
-Scenario
+#### User scenarios
+*Scenario:*
 A fan would like to download a new game ---  
-Requirement 
+*Requirement:* 
 the ability to download the games via download links.
 
-Scenario
+*Scenario:*
 A fan wants to learn more about any other games the business has made ---  
-Requirement 
+*Requirement:*  
 The ability to view a catalogue of games the business has produced.
 
-Scenario
+*Scenario:*
 A fan wants to share videos and pictures of one of their favourite games ---  
-Requirement 
+*Requirement:*  
 The ability to share links to the business’ social media pages.
 
-Scenario
+*Scenario:*
 A fan wants to get in touch about leaving feedback for a way t0 improve one of the games they play ---  
-Requirement 
+*Requirement:*  
 The ability to access contact information to send an email to the business.
 
 ### Structure
@@ -65,22 +66,38 @@ consist of a navigation bar that contains the logo of the business and the main 
 ### Skeleton
 
 #### Wireframe
-
-
+A link to my wireframe.
 
 ## Technology's Used:
 Information Architecture
 
 For this project I will be using a standard tree structure. To achieve this, the header of each page will 
 consist of a navigation bar that contains the logo of the business and the main navigational links for each page in the website. 
-* [HTML5](https://www.w3schools.com/html/html5_intro.asp) 
-* [CSS3](https://www.w3schools.com/css/) - 
-* [Bootstrap4](https://getbootstrap.com/) - 
-* [Font Awesome](https://fontawesome.com/) - 
-* [Google Fonts](https://fonts.google.com/) - 
-* [Cloud9](https://c9.io/wiickmar) - 
-* [Git](https://git-scm.com/) - 
-* [Github](https://github.com/) - 
+* [HTML5](https://www.w3schools.com/html/html5_intro.asp) - a markup language used to create the structure of the webpage.
+* [CSS3](https://www.w3schools.com/css/) - used to style the HTML code. 
+* [Bootstrap4](https://getbootstrap.com/) - a front-end component library used to build responsive mobile-first desifn for this webpage.
+* [Font Awesome](https://fontawesome.com/) - an icon library and toolkit used to implement various icons and social logos on this webpage
+* [Google Fonts](https://fonts.google.com/) - a library of fonts that can eb imported in to your projects.
+* [Cloud9](https://c9.io/wiickmar) - This is the IDE used to write and test the code for this project.
+* [Git](https://git-scm.com/) - Git is a tool that is used to track and store changes to your codes as you work. It stores your code in a local repository.
+* [Github](https://github.com/) - Github is a remote repository used to store our code. It is also used to deploy this project. 
 
+## Testing
+Most of the tesing for this project was done by myself. To do this I used the browser developer tools. This allowed me to observe how the layout of my
+webpage responed at the various different screen widths. 
+
+In order to achieve an appropriate layout for different devices and scren sizes I made use of *Bootstraps grid sytem* and any *media queries* where necessary.
+
+I also used a *code validator* on w3.org for any error, which were fixed afterwards, link: https://validator.w3.org/nu/?doc=https%3A%2F%2Frasifrana.github.io%2Fclonee-computers%2F
+
+## Deployment 
+1. The project was written and developed in the Cloud9 IDE.
+2. A local repository was intialized using Git. Regular changes were commited to the local repository.
+3. Github was used as a remote repository, and at the end of each development session, all local commits were pushed to (https://github.com/martycistudent/First-milestone-project)
+4. Github pages was used to deploy this project from the master branch
 
 ## Credits
+### Media 
+All media for this project was supplied by Astirian-Rae Games. 
+
+### Acknowledgements 
