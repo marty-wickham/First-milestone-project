@@ -269,9 +269,9 @@ p {
     background-color: #27527f;
     color: white;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .btn--cta:hover {
@@ -280,6 +280,24 @@ p {
     color: #0f5f7b;
 }
 
+.btn-modal {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 110px;
+    background-color: #27527f;
+    color: white;
+     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.btn-modal:hover {
+    color: #0f5f7b;
+    background-color: #fbc500;
+    
+    
+}
 .card-body a {
     margin-top: 40px;
     margin-bottom: 15px;
