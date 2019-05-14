@@ -37,24 +37,24 @@ Social media –  to further promote the business brand and content across other
 * A contact section to leave feedback about games, or for any potential collaborations with other people or businesses in the industry.
 
 #### User scenarios
-*Scenario:*
+**Scenario:**
 A fan would like to download a new game ---  
-*Requirement:* 
+**Requirement:**
 the ability to download the games via download links.
 
-*Scenario:*
+**Scenario:**
 A fan wants to learn more about any other games the business has made ---  
-*Requirement:*  
+**Requirement:**
 The ability to view a catalogue of games the business has produced.
 
-*Scenario:*
+**Scenario:**
 A fan wants to share videos and pictures of one of their favourite games ---  
-*Requirement:*  
+**Requirement:**  
 The ability to share links to the business’ social media pages.
 
-*Scenario:*
+**Scenario:**
 A fan wants to get in touch about leaving feedback for a way t0 improve one of the games they play ---  
-*Requirement:*  
+**Requirement:**  
 The ability to access contact information to send an email to the business.
 
 ### Structure
@@ -88,7 +88,7 @@ webpage responed at the various different screen widths.
 
 In order to achieve an appropriate layout for different devices and scren sizes I made use of *Bootstraps grid sytem* and any *media queries* where necessary.
 
-I also used a *code validator* on w3.org for any error, which were fixed afterwards, link: https://validator.w3.org/nu/?doc=https%3A%2F%2Frasifrana.github.io%2Fclonee-computers%2F
+I also used a *code validator* on [W3 Markup Validation Service](https://validator.w3.org/#validate_by_input) to checks for any errors that needed to be fixed in my code. 
 
 ## Deployment 
 1. The project was written and developed in the Cloud9 IDE.
@@ -101,3 +101,4 @@ I also used a *code validator* on w3.org for any error, which were fixed afterwa
 All media for this project was supplied by Astirian-Rae Games. 
 
 ### Acknowledgements 
+For this project I took inspiration from <https://www.zelda.com/> and <https://bethesda.net/en/dashboard>
