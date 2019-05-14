@@ -1,18 +1,33 @@
+Alt-H1 First Milestone Project / Astirian-Rae Games
+___
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Asirian-Rae Games is a small mobile-games company set up by my brother. They make mobile games using C# and Unity. 
+
+## UX Design:
+___
+
+### Strategy
+___
+
+### Scope
+___
+
+### Structure
+___
+
+### Skeleton
+___
+
+## Technology's Used:
+___
+*HTML5
+*CSS3
+*Bootstrap4
+*Font Awesome
+*Google Fonts
+*Cloud9
+*Git
+*Github
 
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+## Credits
