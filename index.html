@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <div class="row  no-gutters">
+        <div class="row no-gutters">
             <div class="col-12">
                 <a href="/Log-in" class="btn btn--cta" data-toggle="modal" data-target="#subscribeModal">Subscribe</a>
             </div>
@@ -26,7 +26,8 @@
             </a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Togglenavigation">
-            <span class="navbar-toggler-icon"></span></button>
+                    <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="hamburger">
                 <ul class="navbar-nav mr-auto uppercase">
@@ -42,10 +43,12 @@
     </header>
 
     <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <!-- Allows the user to navigate back to the top of the page-->
 
     <section>
-        <div class="row">
-            <div class="col-12">
+        <div class="row no gutters">
+            <!-- No gutters allows the image to occupy full width of the screen -->
+            <div class="col-12 container">
                 <img class="bg-image" src="assets/images/arg-logo-landscape.jpg" alt="Background image">
             </div>
         </div>
@@ -113,6 +116,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-4">
+                            <!-- Wrapping the cards in anchor tags so the user can click anywhere on the card itself to downlaod the game -->
                             <a href="https://itunes.apple.com/ie/app/defender-of-the-wood/id904207667?mt=8" target="_blank">
                                 <div class="card">
                                     <img src="assets/images/dotw-cover.png" class="card-img-top" alt="...">
@@ -265,25 +269,25 @@
                 <div class="col-12 social-media">
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
-                            <a href="#" target="_blank">
+                            <a href="https://www.facebook.com/" target="_blank">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" target="_blank">
+                            <a href="https://twitter.com/" target="_blank">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                 <span class="sr-only">Twitter</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" target="_blank">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCcAiCQo1O7-2nmf8BohYqnA" target="_blank">
                                 <i class="fa fa-youtube" aria-hidden="true"></i>
                                 <span class="sr-only">Youtube</span>
                             </a>
