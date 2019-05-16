@@ -66,7 +66,8 @@ consist of a navigation bar that contains the logo of the business and the main 
 ### Skeleton
 
 #### Wireframe
-[A link to my wireframe](https://github.com/martycistudent/First-milestone-project/blob/master/Wireframe/Screenshot%20(52).png)
+[A link to my Mobile wireframe] 
+[A link to my Desktop wireframe](https://github.com/martycistudent/First-milestone-project/blob/master/Wireframe/Screenshot%20(52).png)
 
 ## Technology's Used:
 Information Architecture
