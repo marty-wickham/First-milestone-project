@@ -84,22 +84,39 @@ consist of a navigation bar that contains the logo of the business and the main 
 * [Github](https://github.com/) - Github is a remote repository used to store our code. It is also used to deploy this project. 
 
 ## Testing
-Most of the tesing for this project was done by myself. To do this I used the browser developer tools. This allowed me to observe how the layout of my
-webpage responed at the various different screen widths. 
+In order to ensure the website functioned as expected, all of the testing for this project was done using the browser web developer tools. This was a very 
+important tool for me through the creative process as it helped me to isolate where the problems were in my code. The issues that this helped me resolve 
+include:
 
-In order to achieve an appropriate layout for different devices and scren sizes I made use of *Bootstraps grid sytem* and any *media queries* where necessary.
+* Layout - mostly padding and margins, to ensure adequate spacing between elements as well as sizing for elements.
+* Hover effects - The use of appropriate color and time transitions to help ensure a good user experience.
+* Gris system - effective use of Bootstraps rows and columns helped in creating responsive features for a mobile first approach. 
+* Media queries - certain elements that might overflow such as titles, on very small screen sizes. Viweing the change of elements with screen sizes allowed
+  me to make the necessary changes so that elemnts were proportional across differnet screen widths. 
 
-I also used a *code validator* on [W3 Markup Validation Service](https://validator.w3.org/#validate_by_input) to checks for any errors that needed to be fixed in my code. 
+I used a *code validator* on [W3 Markup Validation Service](https://validator.w3.org/#validate_by_input) to checks for any errors that needed to be 
+fixed in my code. 
+
+Finally, I posted my project in the peer-code-review channel on Slack and received some very helpful criticism to help me fix some mistakes that 
+slipped under the rader.
 
 ## Deployment 
 1. The project was written and developed in the Cloud9 IDE.
 2. A local repository was intialized using Git. Regular changes were commited to the local repository.
 3. Github was used as a remote repository, and at the end of each development session, all local commits were pushed to (https://github.com/martycistudent/First-milestone-project)
-4. Github pages was used to deploy this project from the master branch
+4. The project’s source file was published from GitHub repository to GitHub pages using GitHub default settings via the master branch.
+5. GitHub Pages was then enabled to publish the site from the master branch following this path:
+
+... 1. GitHub repository settings page.
+... 2. Scrolling down to the GitHub Pages Repository box, the master branch was selected from the dropdown menu.
+... 3. The action was saved by clicking the save button.
+
+6. The Project’s source file is now published as a site on GitHub Pages at [Astirian-Rae Games](https://martycistudent.github.io/First-milestone-project/)
 
 ## Credits
 ### Media 
 All media for this project was supplied by Astirian-Rae Games. 
 
 ### Acknowledgements 
-For this project I took inspiration from <https://www.zelda.com/> and <https://bethesda.net/en/dashboard>
+For the main layout of this project I took inspiration from <https://www.zelda.com/> and <https://bethesda.net/en/dashboard>. For more
+specific features I also received inspiration from our Bootstrap classes creating the Whiskey Drop page and the Rosie Odenkirk page. 

@@ -190,14 +190,28 @@ p {
 /*------------------------------------------------------Gallery-section--*/
 
 .gallery-col {
-    padding-bottom: 100px;
+    padding: 0px 16.66% 100px;
 }
 
-
+/*
 .carousel {
     max-width: 800px;
     margin: 0 auto;
     width: 90%;
+} */
+
+.carousel-item {
+    position: relative; /* Found out a way to maintain aspect ratio, using padding-top to determine the dimension of height by forcing height=0" */
+    height: 0;
+    padding-top: 56.25%
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*------------------------------------------------------About-section--*/
